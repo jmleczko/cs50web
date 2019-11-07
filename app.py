@@ -8,7 +8,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 
-#### Master Branch Copy ####
+##### MasterBranch Copy #####
 
 engine = create_engine(
     "postgres://ynsnlwrsihabfl:4f4b80293dacce103e5d5956512cb4f7b0fbf91e3fe9a3d731329c9fe4f9a22a@ec2-54-221-201-212.compute-1.amazonaws.com:5432/dfha9vsh7kdrei",
@@ -92,4 +92,3 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
-
